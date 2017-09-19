@@ -1,0 +1,52 @@
+---
+layout: emkt
+---
+{% include emkt_head.html %}
+
+<html>
+
+</table>
+  <body>
+
+    <table  width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td valign="middle" bgcolor="green">
+
+
+          <table border="0" width="600" align="left" cellpadding="30" cellspacing="0">
+            <tr>
+              <td valign="top" bgcolor="yellow">
+                <font face="arial" color="green" size="19">{{ page.titulo}}</font>
+              </td>
+            </tr>
+          </table>
+
+
+          <h2>{{ page.sub}}</h2>
+
+          <table border="0" width="600" align="left" cellpadding="30" cellspacing="0">
+            <tr>
+              <td valign="top" >
+                <font face="arial" color="black" size="2">{{ content }}</font>
+              </td>
+            </tr>
+          </table>
+
+
+
+          <table  border="0" align="center" cellpadding="30" cellspacing="0">
+            <tr>
+              <td valign="middle" bgcolor="yellow">
+                  <a href="{{ page.link-cta}}" style="text-decoration:none;">{{ page.cta }}</a>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+
+
+</body>
+</html>
