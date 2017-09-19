@@ -4,7 +4,7 @@ title: tovicha maker email
 email: bruno.chaves@gmail.com
 
 markdown: kramdown
-theme: jekyll-theme-minimal
+
 
 collections:
     emkt:
